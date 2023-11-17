@@ -1,0 +1,152 @@
+body{
+
+}
+
+#pinterest-icon{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    width: 47px;
+
+}
+
+
+#navbar-pinterest{
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    width: 100vw;
+    
+}
+
+.Boton1{
+    background-color: black;
+    width: 70px;
+    height: 100%;
+    border-radius: 32px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Boton2{
+
+    width: 90px;
+    height: 100%;
+    border-radius: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Boton3{
+    width: 70px;
+    height: 100%;
+    border-radius: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Finder{
+    width: 75%;
+    height: 100%;
+}
+
+.Finder input{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 40px;
+    border-radius: 32px;
+    background-color: rgb(214, 214, 214);
+    border: none;
+}
+
+.Container-notification{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 100px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--Imagenes--*/
+
+main{
+    width: 100vw;
+}
+
+.container {
+    padding: 0.5%;
+    margin: 3%;
+    display: grid;
+    grid-template-columns: repeat(5 , 420px);
+    grid-template-rows: repeat(3, 440px);
+    grid-gap: 1%;
+}
+
+img{
+    width: 100%;
+    height: 90%;
+    border-radius: 8%;
+    object-fit: cover;
+    margin: 2px;
+}
+
+img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+    
+}
+
+.item-a {
+    grid-row: 1 / 3;
+}
+
+.item-b {
+
+    grid-row: 3 / 5;
+}
+
+.item-c {
+    grid-row: 3 / 1;
+}
+
+.item-d {
+
+    grid-column: 3 / 5;
+}
+
+.item-e {
+    grid-column: 2 / 4;
+    
+}
+
+
+.column-1 {
+    grid-column: 1;
+}
+
+
+.column-2 {
+    grid-column: 2;
+}
+
+
+.column-3 {
+    grid-column: 3;
+}
+
+
+.column-4 {
+    grid-column: 4;
+}
